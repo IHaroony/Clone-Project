@@ -30,10 +30,11 @@ body {
 .nav .nav-links {
     list-style: none;
     display: flex;
-    margin-left: 605px;
+    margin-left: 617px;
     gap: 16px;
-    margin-top: 23px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    font-family: 'sohne', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 22px;
 }
 
 .nav .nav-links li {
@@ -51,39 +52,29 @@ body {
 }
 
 .nav .nav-links .highlight {
-    background-color: #000;
+    background-color: #000000;
     color: #fff;
     border-radius: 20px;
-    padding: 10px 20px;
+    padding:  11px 14px 9px 14px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: -6px;
 }
 
 header {
     margin-top: -10px; /* Move the bar up by 10px */
 }
 
-h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    color: rgb(66, 66, 66);
-    font-family: 'medium-content-sans-serif-font', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: linear-gradient( to right, #faeba2,#faeba2,#faeba2,#faeba2,#faeba2,#faeba2,#faeba2,#faeba2,#fee54b, #fee54b, #ffcc1a, #ffa90e,#ffa90e , #ffa90e);
-    padding: 14px;
-    border: 0.1px solid #242424;
-    font-style: normal;
-    
+
+.line {
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 100vw; /* Full width of the viewport */
+    margin: 0 auto;
 }
 
-.highlight1 {
-    color: #000000;
-    text-decoration: underline;
-    font-family: 'medium-content-sans-serif-font', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: lighter;
-    font-style: normal; /* Ensure no italic styling */
-    margin-left: 10px; /* Add some space */
-}
+
+
+
 
 @font-face {
     font-family: 'Sohne';
@@ -95,17 +86,36 @@ h3 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 330px;
+    margin-top: 440px;
     margin-left: 690px;
-    color: rgba(0, 0, 0, 0.8);
-    font-family: 'medium-content-sans-serif-font', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    font-style: normal; 
-    font-size: 90px;
-   text-rendering: optimizeLegibility;
-   -webkit-font-smoothing: antialiased;
-        
+    color: rgba(0, 0, 0, 0.8); 
+    font-family: "gt-super", Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 200; 
+    font-size: 120px !important; /* Force the size */
+    line-height: 1.4;
+    letter-spacing: -0.05em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
+
+
+@media (min-width: 904px) {
+    h3 {
+        font-size: 120px; /* Larger font size for large screens */
+        letter-spacing: -0.055em;
+        line-height: 100px;
+    }
+}
+
+@media (min-width: 728px) {
+    h3 {
+        font-size: 106px; /* Adjust font size for mid-sized screens */
+        letter-spacing: -0.055em;
+        line-height: 95px;
+    }
+}
+
 
 a {
     display: flex;
@@ -117,18 +127,15 @@ a {
 
 
     .nav1 {
-        display: flex
+        display: flex;
         justify-content: center;
         align-items: center;
         margin: 0px auto; 
         width: fit-content; 
         background-color: #000;
         color: #fff;
-        border-radius: 40px;
-        padding: 11px 45px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-style: normal;
-        font-size: 20px;
+        border-radius: 50px 50px 50px;
+        padding: 9.5px 40px;
         margin-left: 690px;
         margin-top: 50px;
         
@@ -140,11 +147,14 @@ a {
     .nav1 a {
         display: flex;
         text-decoration: none;
-        font-weight: lighter;
         background-color: #000;
-        color: #fff;
+        color: #ffffff;
         text-rendering: optimizeLegibility;
-   -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    font-size: 22px;
+        font-weight: 200;
+        font-family: 'sohne';
+        font-style:normal
         
         
     }
@@ -154,12 +164,15 @@ a {
 display: flex;
 justify-content: center;
 align-items: center;
-   color: #000000;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #242424;;
+   font-family: "sohne", "Helvetica Neue", Helvetica, Arial, sans-serif;
    font-style: normal;
-   margin-right:620px;
-   margin-top: -50px;
-   font-size: 25px ;
+   margin-right:650px;
+   margin-top: -70px;
+   font-size: 22px ;
+   line-height: 28px;
+   font-weight: 400;
+   box-sizing: inherit;
 
 
 
@@ -169,9 +182,7 @@ align-items: center;
     }
     
 
-
-
-
+    
 
 
 
@@ -241,3 +252,27 @@ footer .nav a:hover {
 
 
 
+/*<header>
+    <h1>Be part of a better internet.<span class="highlight1">Get 20% off membership for a limited time</span></h1>
+</header> h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(66, 66, 66);
+    font-family: 'medium-content-sans-serif-font', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient( to right, #faeba2,#faeba2,#faeba2,#faeba2,#faeba2,#faeba2,#faeba2,#faeba2,#fee54b, #fee54b, #ffcc1a, #ffa90e,#ffa90e , #ffa90e);
+    padding: 14px;
+    border: 0.1px solid #242424;
+    font-style: normal;
+    
+} .highlight1 {
+    color: #000000;
+    text-decoration: underline;
+    font-family: 'medium-content-sans-serif-font', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    margin-left: 10px; /* Add some space 
+}
+
+*/
